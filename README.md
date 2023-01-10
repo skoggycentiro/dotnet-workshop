@@ -1,4 +1,26 @@
-# dotnet Workshop
+# dotnet workshop
+
+## Prerequisites
+
+* A computer with `Windows 🪟`, `Mac OS 🍎` or `linux 🐧`
+* 🧑‍💻 [dotnet 7 SDK from Microsoft](https://dotnet.microsoft.com/en-us/download/dotnet/7.0)
+* 📃 Text editor | IDE - (choose your favourite)
+  * [VS Code](https://code.visualstudio.com/) (also install the C# extension)
+  * [Visual Studio](https://visualstudio.microsoft.com/)
+  * [Rider](https://www.jetbrains.com/rider/)
+  * CLI and any text editor also works
+* 🌿 [GIT](https://git-scm.com/)
+* 💻 Command console (to setup project)
+  * cmd
+  * cmder
+  * powershell
+  * git bash
+  * terminal
+  * xterm
+
+> 🙏 Please make sure everything is installed before the workshop 
+
+
 
 ## Tasks
 
