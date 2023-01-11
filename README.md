@@ -17,6 +17,7 @@
   * git bash
   * terminal
   * xterm
+* 🟩 [Node.js](https://nodejs.org/en/) (if you want to do frontend!)
 
 > 🙏 Please make sure everything is installed before the workshop 
 
