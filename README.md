@@ -62,3 +62,9 @@ Ideas to expand on:
 * [Easy] Read user input
 * [Intermediate] Show weather based on user input
 * [Hard] Simulate on map based on user input
+
+
+## Guides
+
+Get started with Visual Studio Code
+https://learn.microsoft.com/sv-se/shows/dotnet/get-started-vscode-csharp-net-core-windows
