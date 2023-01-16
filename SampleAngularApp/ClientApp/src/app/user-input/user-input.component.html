@@ -1,0 +1,92 @@
+<h1>Pokedex</h1>
+<h4>Add new pokémon</h4>
+<form class="pokemon-form" (ngSubmit)="savePokemon()">
+  <div>
+    <label for="name">Name</label>
+    <input
+      type="text"
+      class="form-control"
+      placeholder="Bulbasaur"
+      name="name"
+      id="name"
+      [(ngModel)]="pokemon.name"
+    />
+  </div>
+  <div>
+    <label for="type">Type</label>
+    <select
+      name="type"
+      id="type"
+      class="form-control"
+      [(ngModel)]="pokemon.type"
+    >
+      <option value="">--Please select a type--</option>
+      <option value="Normal">Normal</option>
+      <option value="Fire">Fire</option>
+      <option value="Water">Water</option>
+      <option value="Electric">Electric</option>
+      <option value="Grass">Grass</option>
+      <option value="Ice">Ice</option>
+    </select>
+  </div>
+  <div>
+    <label for="height">Height</label>
+    <input
+      type="number"
+      name="height"
+      id="height"
+      class="form-control"
+      placeholder="0"
+      min="0"
+      [(ngModel)]="pokemon.height"
+    />
+  </div>
+  <div>
+    <label for="weight">Weight</label>
+    <input
+      type="number"
+      name="weight"
+      class="form-control"
+      placeholder="0"
+      min="0"
+      [(ngModel)]="pokemon.weight"
+    />
+  </div>
+  <div>
+    <label for="date">Date caught</label>
+    <input
+      type="date"
+      name="date"
+      id="date"
+      class="form-control"
+      [(ngModel)]="pokemon.dateCaught"
+    />
+  </div>
+  <button class="btn btn-primary" type="submit">Save</button>
+</form>
+<table *ngIf="pokemons.length > 0" class="table">
+  <thead>
+    <tr>
+      <th scope="col">Name</th>
+      <th scope="col">Type</th>
+      <th scope="col">Height</th>
+      <th scope="col">Weight</th>
+      <th scope="col">Date caught</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let pokemon of pokemons">
+      <td>{{ pokemon.name }}</td>
+      <td>{{ pokemon.type }}</td>
+      <td>{{ pokemon.height }}</td>
+      <td>{{ pokemon.weight }}</td>
+      <td>{{ pokemon.dateCaught }}</td>
+    </tr>
+  </tbody>
+</table>
+<div>
+  <p></p>
+  <p></p>
+  <p></p>
+  <p></p>
+</div>
