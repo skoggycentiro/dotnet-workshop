@@ -1,0 +1,8 @@
+.pokemon-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 8px;
+  width: 400px;
+  margin-bottom: 10px;
+}
